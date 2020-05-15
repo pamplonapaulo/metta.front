@@ -36,7 +36,7 @@ function Home() {
 
           <div className="topic widthThird">
             <p className="question">When?</p>
-            <p>This is a single developer project, so hopefully it will be available before the end of 2020. Would you like to send some suggestions? Just direct message us on our Instagram account.</p>
+            <p>This is a single developer project, so hopefully it will be available before the end of 2020. Would you like to submit any suggestions? Just send us a direct message on our Instagram account.</p>
           </div>
           
         </div>
