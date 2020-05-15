@@ -29,7 +29,7 @@ function Home() {
         
         <div className="topic">
           <p className="question">Why?</p>
-          <p>First, to mesuare and promote a global vibration of awakeness, calculating how many users are meditating 'together', every session. Second, to create a community of meditators who support each other's business.</p>
+          <p>First, to measure and promote a global vibration of awakening, calculating how many users are meditating 'together' at each session. Second, to create a community of meditators who support each other's businesses.</p>
         </div>
 
         <div className="topic">
