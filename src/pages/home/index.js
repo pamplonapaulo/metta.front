@@ -22,18 +22,27 @@ function Home() {
 
       <div className="container">
 
-        <div className="topic">
-          <p className="question">What is it?</p>
-          <p>An ecumenical app being developed since COVID-19 started to change our lifes.</p>
-        </div>
-        
-        <div className="topic">
-          <p className="question">Why?</p>
-          <p>First, to measure and promote a global vibration of awakening, calculating how many users are meditating 'together' at each session. Second, to create a community of meditators who support each other's businesses.</p>
+        <div className="row">
+
+          <div className="topic widthThird">
+            <p className="question">What is it?</p>
+            <p>An ecumenical app being developed since COVID-19 started to change our lifes.</p>
+          </div>
+          
+          <div className="topic widthThird">
+            <p className="question">Why?</p>
+            <p>First, to measure and promote a global vibration of awakening, calculating how many users are meditating 'together' at each session. Second, to create a community of meditators who support each other's businesses.</p>
+          </div>
+
+          <div className="topic widthThird">
+            <p className="question">When?</p>
+            <p>This is a single developer project, so hopefully it will be available before the end of 2020. Would you like to send some suggestions? Just direct message us on our Instagram account.</p>
+          </div>
+          
         </div>
 
-        <div className="topic">
-          <p className="question">What's the meaning of the word "metta"?</p>
+        <div className="topic widthFull">
+          <p className="question">What means "metta"?</p>
           <p>From the ancient Pāli language, "metta" or "mettā" means benevolence, loving-kindness, friendliness, amity, good will. It's also a very common term used in some traditions, as a meditation focused on the development of unconditional love for all beings.</p>
         </div>
 

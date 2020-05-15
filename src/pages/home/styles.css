@@ -105,12 +105,26 @@ li {
   }
 
   .container {
-    max-width: 50%;
+    max-width: 70%;
     transform: translateY(-50px);
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
   }
 
   .topic {
     margin-bottom: 40px;
+  }
+
+  .widthThird {
+    width: 33.33%;
+    padding: 0 10px;
+  }
+
+  .widthFull {
+    padding: 0 10px;
   }
 
   .question {
