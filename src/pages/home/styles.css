@@ -74,14 +74,13 @@ header {
 
 .tab-bar button {
   background: none;
-  border: none;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   color: #fff;
   padding: 5px;
   transition: .2s ease all;
-  border-radius: 5%;
-  border-color: rgba(255,255,255,0.2);
+  /* border-radius: 5%; */
+  border-color: rgba(255,255,255,0.1);
   border-width: 1px;
   border-style: solid;
   outline: none;
@@ -97,7 +96,7 @@ header {
 }
 
 .tab-bar button .tab-icon {
-  font-size: 25px;
+  font-size: 19px;
   margin-bottom: 2.5px;
 }
 
@@ -181,7 +180,7 @@ footer {
 
 .copy p {
   /* background-color: green; */
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 .wrap {
@@ -237,8 +236,22 @@ footer {
   }
 
   .tab-contents {
-    float: none;
     width: 940px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .tab-bar button {
+    border-color: rgba(255,255,255,0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+  }
+
+  .tab-bar button .tab-icon {
+    font-size: 25px;
   }
 
   .row {

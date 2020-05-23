@@ -3,7 +3,7 @@ import React, { PureComponent, createElement } from 'react'
 import logo from '../../logo.svg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarAlt, faSearch, faWrench, faUser, faQuestion } from '@fortawesome/free-solid-svg-icons'
+import { faRocket, faSearch, faWrench, faUser, faQuestion } from '@fortawesome/free-solid-svg-icons'
 
 import './styles.css'
 
@@ -102,7 +102,7 @@ class Home extends PureComponent {
                 <p className="tab-w">Why</p>
               </button>
               <button onClick={() => this.handleTab(2)}>
-              <FontAwesomeIcon  className="tab-icon" icon={faCalendarAlt} />
+              <FontAwesomeIcon  className="tab-icon" icon={faRocket} />
                 <p className="tab-w">When</p>
               </button>
               <button onClick={() => this.handleTab(3)}>
@@ -122,27 +122,8 @@ class Home extends PureComponent {
                 <div className="topic">
 
                   <p>{this.state.content}</p>
-{/* 
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero rerum magnam esse temporibus qui minus illum molestias incidunt praesentium facilis sequi blanditiis corrupti eligendi adipisci omnis, sunt fugiat doloribus pariatur!</p>
-                  <p>Harum nam, veniam, amet modi architecto, fugiat facilis voluptatibus dolores temporibus illum libero. Eos odit commodi aut ratione necessitatibus, magni nostrum itaque tenetur pariatur sunt, assumenda perspiciatis dolorem! Aut, dignissimos.</p>
-                  <p>Minima aperiam, numquam praesentium quas nam, unde magni accusantium sequi hic asperiores atque omnis facere eveniet. Sunt expedita eligendi, reiciendis officiis illum vel tempore velit nemo facere voluptate accusantium esse!</p>
-                  <p>Blanditiis aut recusandae labore consequatur veniam provident saepe quo pariatur debitis eaque. Quam sed illo porro voluptate officiis odit, omnis sunt obcaecati explicabo nostrum totam. Porro voluptates modi error officia!</p> */}
-                </div>
 
-                {/* <div className="topic">
-                  <p className="question">What</p>
-                  <p>An ecumenical app being developed since the COVID-19 started to change our lifes.</p>
                 </div>
-
-                <div className="topic">
-                  <p className="question">Why</p>
-                  <p>First, to measure and promote a global vibration of awakening, calculating how many users are meditating 'together' at each session. Second, to create a community of meditators who support each other's businesses.</p>
-                </div>
-
-                <div className="topic">
-                  <p className="question">When</p>
-                  <p>This is a single developer project, so hopefully it will be available before the end of 2020. Would you like to submit any suggestions? Just send us a direct message on our Instagram account.</p>
-                </div> */}
 
               </div>
 
