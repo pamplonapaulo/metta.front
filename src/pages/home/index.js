@@ -1,4 +1,4 @@
-import React, { PureComponent, createElement } from 'react'
+import React, { PureComponent } from 'react'
 
 import logo from '../../logo.svg'
 
@@ -20,7 +20,7 @@ class Home extends PureComponent {
     super()
     
     this.state = {
-      content: 'wait...'
+      content: 'Loading...'
     }
   }
 
@@ -34,22 +34,6 @@ class Home extends PureComponent {
     this.setState({
       content: tabs[index]
     })
-
-    /*
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-
-        const btns = document.querySelectorAll('.tab-bar button')
-
-        this.clearActiveColor(btns)
-        this.handleBtnColor(index, btns)
-
-        resolve(tabs[index])
-
-        console.log(tabs[index])
-
-      }, 100)
-    })*/
   }
 
   handleBtnColor = (index, btns) => {
@@ -62,15 +46,10 @@ class Home extends PureComponent {
     }
   }
 
-  async componentDidMount () {
-
-    console.log('componentDidMount ******')
+  componentDidMount () {
 
     this.handleTab(0)
 
-    // this.setState({
-    //   content: await this.handleTab(0)
-    // })
   }
 
   render () {
@@ -117,15 +96,7 @@ class Home extends PureComponent {
 
             <div className="tab-contents">
 
-              <div className="row">
-
-                <div className="topic">
-
-                  <p>{this.state.content}</p>
-
-                </div>
-
-              </div>
+              <p>{this.state.content}</p>
 
             </div>
 

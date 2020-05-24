@@ -19,6 +19,17 @@ body {
   height: 100vh;
 }
 
+h1 {
+  font-size: 20px;
+}
+
+p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 #root {
   height: 100%;
 }
@@ -102,8 +113,8 @@ header {
 
 .tab-bar button .tab-w {
   font-size: 15px;
-  margin-top: 2.5px;
   text-transform: lowercase;
+  line-height: 1;
 }
 
 .tab-contents {
@@ -114,24 +125,7 @@ header {
 .tab-contents p {
   font-size: 16px;
   margin: 15px 0;
-}
-
-h1 {
-  font-size: 20px;
-}
-
-p {
-  margin-block-end: 0;
-  margin-block-start: 0;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-li {
-  font-size: 12px;
-  padding-bottom: 15px;
   text-align: left;
-  line-height: 1.5;
 }
 
 .topic {
@@ -254,14 +248,19 @@ footer {
     font-size: 25px;
   }
 
-  .row {
+  .tab-bar button .tab-w {
+    margin-top: 2.5px;
+    line-height: 1.5;
+  }
+
+  /* .row {
     display: flex;
     flex-direction: row;
   }
 
   .topic {
     margin-bottom: 40px;
-  }
+  } */
 
   .question {
     font-size: 15px;
